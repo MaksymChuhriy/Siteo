@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автосалон</title>
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__left-block">
+        <div class="header__logo">
+            <img src="icons/logo.svg" alt="Логотип">
+        </div>
+        <nav class="header__links">
+            <a href="#" class="header__link">Тестдрайв</a>
+            <a href="#" class="header__link">Другий пункт</a>
+        </nav>
+    </div>
+    <div class="header__right-block">
+        <button class="btn btn_white" data-modal>Передзамовлення</button>
+    </div>
+</header>
+<div class="sidepanel">
+    <div class="sidepanel__text"><span>Соціальні мережі</span></div>
+    <div class="sidepanel__divider"></div>
+    <a href="#" class="sidepanel__icon">
+        <img src="icons/instagram.svg" alt="instagram">
+    </a>
+    <a href="#" class="sidepanel__icon">
+        <img src="icons/facebook.svg" alt="facebook">
+    </a>
+</div>
+
+<div class="preview">
+    <div class="bgc_blue"></div>
+    <div class="container">
+        <div class="tabcontainer">
+            <div class="tabcontent">
+                <img src="img/tabs/vegy.jpg" alt="vegy">
+                <div class="tabcontent__descr">
+                    Мерседе́с-Бе́нц, або просто Мерседес — німецька торгова марка транспортних засобів та назва ряду компаній-автовиробників, що належать автобудівному концерну «Даймлер»
+                </div>
+            </div>
+            <div class="tabcontent">
+                <img src="img/tabs/elite.jpg" alt="elite">
+                <div class="tabcontent__descr">
+                    Bayerische Motoren Werke AG або скор. BMW — німецький автобудівний та авіамоторний концерн і однойменна торгова марка автомобілів преміум- та люкс-класу і мотоциклів.
+                </div>
+            </div>
+            <div class="tabcontent">
+                <img src="img/tabs/post.jpg" alt="post">
+                <div class="tabcontent__descr">
+                    Audi — з 1909 року німецький виробник автомобілів. Штаб-квартира розташована в місті Інгольштадт. У 1928 році компанію купує Йорген Расмуссен. Сьогодні компанія займається виготовленням престижних автомобілів.
+                </div>
+            </div>
+            <div class="tabcontent">
+                <img src="img/tabs/hamburger.jpg" alt="vegy">
+                <div class="tabcontent__descr">
+                    Хонда — міжнародна промислова компанія, перш за все відома своїми автомобілями, мотоциклами та роботами. Компанія заснована 24 вересня 1948 року, засновник — Соічіро Хонда. Продукція — легкові автомобілі, вантажівки, літаки, мотоцикли, скутери, електрогенератори, роботи, морські двигуни. До 1960-х рр.
+                </div>
+            </div>
+            <div class="tabheader">
+                <h3>Виберіть вашу марку</h3>
+                <div class="tabheader__items">
+                    <div class="tabheader__item tabheader__item_active">Mercedes</div>
+                    <div class="tabheader__item">BMW</div>
+                    <div class="tabheader__item">AUDI</div>
+                    <div class="tabheader__item">HONDA</div>
+                </div>
+            </div>
+        </div>
+        <div class="preview__life">Добав красок у життя!</div>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="offer">
+    <div class="bgc_y"></div>
+    <div class="container">
+        <div class="offer__text">
+            <h2 class="title">Що ми можемо вам запропонувати?</h2>
+            <div class="offer__descr">
+                Ми Автосалон "SuperCar" можемо запропонувати широкий асортимент нових
+                іномарок різних компаній, таких як Хонда, Мазда, БМВ, Мерседес, Хюндай, Форд та інші.
+                Також ми можемо доставити різноманітні деталі для ваших авто та аксесуари.
+                Наша основна ідея – це правильне харчування.
+                Хочете найкраще авто - звертайтесь до нас!
+            </div>
+        </div>
+        <div class="offer__action">
+            <button class="btn btn_dark" data-modal>Передзамовлення</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="offer__advantages">
+            <h2>Досвідченно та Надійно</h2>
+            <div class="offer__advantages-text">
+                Підбирання авто займає багато сил, часу. Але наші спеціалісти беруть цю всю роботу на себе.
+                Вони швидко допоможуть підібрати саме те авто, яке вам підійде по коштах та основне - це буде служити вам довгий час.
+            </div>
+            <h2>Правильний Підбір</h2>
+            <div class="offer__advantages-text">
+                Підбір залежить від 2 важливих факторів. Фінанси нашого клієнта, та комплектація авто,
+            </div>
+        </div>
+        <div class="offer__slider">
+            <div class="offer__slider-counter">
+                <div class="offer__slider-prev">
+                    <img src="icons/left.svg" alt="prev">
+                </div>
+                <span id="current">03</span>
+                /
+                <span id="total">04</span>
+                <div class="offer__slider-next">
+                    <img src="icons/right.svg" alt="next">
+                </div>
+            </div>
+            <div class="offer__slider-wrapper">
+                <div class="offer__slider-inner">
+                    <div class="offer__slide">
+                        <img src="img/slider/pepper.jpg" alt="pepper">
+                    </div>
+                    <div class="offer__slide">
+                        <img src="img/slider/food-12.jpg" alt="food">
+                    </div>
+                    <div class="offer__slide">
+                        <img src="img/slider/olive-oil.jpg" alt="oil">
+                    </div>
+                    <div class="offer__slide">
+                        <img src="img/slider/paprika.jpg" alt="paprika">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="calculating">
+    <div class="container">
+        <h2 class="title">Cкільки в середньому обходиться обслуговування нового авто в день?
+        </h2>
+        <div class="calculating__field">
+            <div class="calculating__subtitle">
+                Ваше авто
+            </div>
+            <div class="calculating__choose" id="gender">
+                <div id="female" class="calculating__choose-item calculating__choose-item_active">Ціна 20000$ +</div>
+                <div id="male" class="calculating__choose-item">Ціна до 20000$</div>
+            </div>
+
+            <div class="calculating__subtitle">
+                Введіть дані про авто
+            </div>
+            <div class="calculating__choose calculating__choose_medium">
+                <input type="text" id="height" placeholder="Введіть Ведіть розхід" class="calculating__choose-item">
+                <input type="text" id="weight" placeholder="Введіть обєм двигуна"  class="calculating__choose-item">
+                <input type="text" id="age" placeholder="Введіть вік авто (Від 1 року)" class="calculating__choose-item">
+            </div>
+
+            <div class="calculating__subtitle">
+                Яка ваша активність як водія протягом року?
+            </div>
+            <div class="calculating__choose calculating__choose_big">
+                <div data-ratio="1.2" id="low" class="calculating__choose-item">Низька</div>
+                <div data-ratio="1.375" id="small"  class="calculating__choose-item calculating__choose-item_active">Середня</div>
+                <div data-ratio="1.55" id="medium" class="calculating__choose-item">Помірна</div>
+                <div data-ratio="1.725" id="high" class="calculating__choose-item">Висока</div>
+            </div>
+
+            <div class="calculating__divider"></div>
+
+            <div class="calculating__total">
+                <div class="calculating__subtitle">
+                    Середній розхід витрат на авто складатиме:
+                </div>
+                <div class="calculating__result">
+                    <span>2700</span> грн
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="menu">
+    <h2 class="title">Доступний тестдрайв</h2>
+
+    <div class="menu__field">
+        <div class="container">
+
+        </div>
+    </div>
+</div>
+
+<div class="order">
+    <div class="container">
+        <div class="title">Бери авто на тестдрайв прямо зараз!</div>
+        <form action="#" class="order__form">
+            <input required placeholder="Ваше ім`я" name="name" type="text" class="order__input">
+            <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="order__input">
+            <img src="icons/right.svg" alt="right">
+            <button class="btn btn_dark btn_min">Перетелефонувати мені</button>
+        </form>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="promotion">
+    <div class="bgc_y"></div>
+    <div class="container">
+        <div class="promotion__text">
+            <div class="title">Акція для нових клієнтів!</div>
+            <div class="promotion__descr">
+                Ми цінуємо кожного клієнта та пропонуємо вам стати одним із них на дуже вигідних умовах.
+                Кожному, хто замовить Авто та візьме комплект коліс - отримає знижку на обслуговування авто <span>20%!</span>
+                <br><br>
+                Акція завершиться 11 лютого в 00:00
+            </div>
+        </div>
+        <div class="promotion__timer">
+            <div class="title">Залишилось до кінця акції:</div>
+            <div class="timer">
+                <div class="timer__block">
+                    <span id="days">12</span>
+                    днів
+                </div>
+                <div class="timer__block">
+                    <span id="hours">20</span>
+                    годин
+                </div>
+                <div class="timer__block">
+                    <span id="minutes">56</span>
+                    хвилин
+                </div>
+                <div class="timer__block">
+                    <span id="seconds">20</span>
+                    секунд
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="social">
+            <div class="subtitle">Соціальні мережі:</div>
+            <a href="https://www.instagram.com/gartys7/" class="link">instagram</a>
+            <a href="https://m.facebook.com/100005968247168/" class="link">facebook</a>
+        </div>
+        <div class="pepper">
+            <img src="icons/veg.svg" alt="pepper">
+        </div>
+        <div class="call">
+            <div class="subtitle">Або зателефонуйте нам</div>
+            <a href="#" class="link">+380956281743</a>
+            <a href="#" class="link">+380500923423</a>
+        </div>
+        <div class="callі">
+            <div class="subtitle">Адміністратор сайту</div>
+            <a href="#" class="link">Чухрій Максим Сергійович Кі-41</a>
+            <a href="#" class="link">Досвід розробки сайтів 1.5 роки</a>
+
+        </div>
+    </div>
+</footer>
+
+<div class="modal">
+    <div class="modal__dialog">
+        <div class="modal__content">
+            <form action="#">
+                <div class="modal__close" data-close>&times;</div>
+                <div class="modal__title">Ви зробили правильний вибір!!</div>
+                <input required placeholder="Ваше ім`я" name="name" type="text" class="modal__input">
+                <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                <button class="btn btn_dark btn_min">Перетелефонувати мені</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/bundle.js"></script>
+</body>
+</html>
